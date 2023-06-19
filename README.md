@@ -1,4 +1,4 @@
-# webpPSConversion
+# webp PS Conversion
 Basic PS Script to convert .webp Files to PNG whilst retaining filename
 
 * [Google .webp documentation](https://developers.google.com/speed/webp)
