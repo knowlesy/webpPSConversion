@@ -5,7 +5,7 @@ $dwebp = "C:\temp\dwebp.exe"
 $folder = "C:\temp\files"
 
 #Gets all the files 
-$files = Get-ChildItem $folder -Exclude converted
+$files = Get-ChildItem $folder -Recurse -Include *.webp -Exclude converted
 #PErforms a count
 $count = $files | measure-object
 $counted = $count.count + 1
